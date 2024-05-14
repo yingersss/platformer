@@ -13,17 +13,17 @@ public class LevelManager {
 
         // level 1
         levels.add(new Level(Arrays.asList(
-                new Platform(200, 400, 100, 10, Color.GRAY),
-                new Platform(400, 300 , 100, 10, Color.GRAY),
-                new Platform(600, 200, 100, 10, Color.GRAY)
-        ), new Platform(750, 100, 50, 10, Color.GREEN)));
+                new Platform(200, 400, 30, 10, Color.GRAY),
+                new Platform(400, 300 , 30, 10, Color.GRAY),
+                new Platform(600, 200, 30, 10, Color.GRAY)
+        ), new Platform(750, 100, 30, 10, Color.GREEN)));
 
         // level 2
         levels.add(new Level(Arrays.asList(
-                new Platform(150, 450, 100, 10, Color.GRAY),
-                new Platform(350, 350, 100, 10, Color.GRAY),
-                new Platform(550, 250, 100, 10, Color.GRAY)
-        ), new Platform(700, 70, 50, 10, Color.GREEN)));
+                new Platform(150, 450, 30, 10, Color.GRAY),
+                new Platform(350, 350, 30, 10, Color.GRAY),
+                new Platform(550, 250, 30, 10, Color.GRAY)
+        ), new Platform(700, 70, 30, 10, Color.GREEN)));
 
         // add more here
     }
